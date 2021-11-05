@@ -3,7 +3,34 @@ folha de estilo do site one page HTMl e CSS3
 @autor Professor Jose de assis 
 Joseassis.com.br
 */
-
+/* samrtphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* smartPhone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px){
 body{
-    background-color: #ff0000;
-}
+    background-color: #0ff
+     }
+
+ }
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px){
+    body{
+        background-color: #ff0
+         }
+    
+     }
+    
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px){
+    body{
+        background-color: #f60
+         }
+
+/* Pc >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (min-width: 1200px){
+    body{
+        background-color: #ff0000;
+         }
+        }
+
