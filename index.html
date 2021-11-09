@@ -15,8 +15,8 @@
 
 <body>
     <!-- Cabecalho -->
-    <header>
-        <div class="Container">
+    <header id="inicio">
+        <div class="Container Flex">
             <div id="logo">
                 <img src="img/logo.png" alt="hal 9000">
             </div>
@@ -24,10 +24,10 @@
                 <input type="checkbox" id="check">
                 <label for="check">&#x268c;</label>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Conteudo</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#conteudo">Conteudo</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
 
@@ -38,14 +38,14 @@
     <!-- Destaque -->
     <main>
         <div class="Container">
-            <h1>HTML5 e CSS3</h1>
+            <h1> HTML5 e CSS3</h1>
             <h2>Voce faz voce ve. voce aprende</h2>
         </div>
 
 
     </main>
     <!-- Soubre -->
-    <section>
+    <section id="sobre">
         <div class="Container">
             <h2> Aprender na pagina</h2>
         </div>
@@ -66,7 +66,7 @@
 
     </section>
     <!-- Conteudo -->
-    <section>
+    <section id="conteudo">
         <div class="Container">
             <h2>Conteudo</h2>
             <h3>HTML5</h3>
@@ -76,11 +76,12 @@
 
     </section>
     <!-- Rodape -->
-    <footer>
+    <footer id="contato">
         <div class="Container">
 
         </div>
     </footer>
+    <a href="#inicio" id="topo"><img src="img/topo.png" alt="topo do site"></a>
 </body>
 
 </html>

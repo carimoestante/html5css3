@@ -28,8 +28,30 @@ body{
     background-color: #dcdcdc;
 }
 
+.Flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a9a9a9;
+}
 
-/*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> *
+/* topo do site */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+/*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* cabecalho */
+header{
+    height: 60px;
+}
+
+#logo img{
+    width: 128px;
+    height: 128px;
+}
 
 /*smartPhone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px){
@@ -69,5 +91,16 @@ body{
      /* Layout */
      .Container{
         max-width: 1140px;
+    }
+    
+    /* Cabecalho*/
+    header{
+        height: 128px;
+
+    }
+    #logo img {
+        width: 189px;
+        height: 189px;
+        margin-top: 30px; 
     }
 }
