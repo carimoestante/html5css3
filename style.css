@@ -4,16 +4,16 @@ folha de estilo do site one page HTMl e CSS3
 Joseassis.com.br
 */
 
-/* importatcao google fonts (google Fonts)*/
+/* importacao google fonts (google Fonts)*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 
 /* CSS Reset */
 *{
-  margin: 0;
-  border: 0;
-  padding: 0;
-
-}
+    margin: 0;
+    border: 0;
+    padding:0;
+  }
 
 
 
@@ -24,7 +24,9 @@ body{
 
 /* Layout */
 .Container{
+    
     margin: 0 auto;
+    background-color: #7f0;
     
 }
 
