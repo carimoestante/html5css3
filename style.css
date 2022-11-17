@@ -90,7 +90,9 @@ nav ul li a {
 
 /*smartPhone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px){
-    
+    body{
+        background-color: #0ff;
+    }
     /* Layout */
     .Container{
         max-width: 540px;
@@ -98,7 +100,9 @@ nav ul li a {
 }
 /*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px){
-   
+   body{
+    background-color: #ffff00;
+   }
 
  /* Layout */
  .Container{
@@ -107,6 +111,9 @@ nav ul li a {
 }
 /*tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px){
+    body{
+        background-color: #ff6600;
+    }
     
  /* Layout */
  .Container{
@@ -115,6 +122,9 @@ nav ul li a {
 }
 /* pc >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px){
+    body{
+        background-color: #ff0000;
+    }
   
      /* Layout */
      .Container{
