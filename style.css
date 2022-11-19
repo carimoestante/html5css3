@@ -26,15 +26,24 @@ body{
 .Container{
     
     margin: 0 auto;
-    background-color: #7f0;
-    
 }
 
 .Flex{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
+
+.Botao {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3m;
+    font-weight: 700;
+    background-color: #c00000;
+    padding: 10px 40px;
+    border:  2px solid #fff;
+    border-radius: 25px;
+}
+
 
 /* topo do site */
 #topo {
@@ -90,43 +99,81 @@ nav ul li a {
     color: #fff;
 }
 
+/* Destaque */
+main {
+    height: 75vh;
+    background:  url(img/banner.jpg);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5em;
+}
+
+main h2 {
+    font-size: 1em;
+    margin: 20px 0px 50px 0px;
+}
+
 /*smartPhone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px){
-    body{
-        background-color: #0ff;
-    }
+   
     /* Layout */
     .Container{
         max-width: 540px;
     }
+    
+    /* Destaque */
+    main h1, main h2{
+        text-shadow: #000 0.05em 0.5em 0.5em;
+
+    }
+
 }
 /*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px){
-   body{
-    background-color: #ffff00;
-   }
-
- /* Layout */
+   
+    /* Layout */
  .Container{
     max-width: 720px;
 }
+/* Destaque  */
+main {
+    height: 45vh;
+}
+    main h1 {
+        font-size: 5.5em;
+}
+
+main h2{
+    font-size: 2em;
+}
+
+
+}
+
 }
 /*tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px){
-    body{
-        background-color: #ff6600;
-    }
+    
     
  /* Layout */
  .Container{
     max-width: 960px;
 }
+/* Destaque */
+main {
+    height: 70vh;
+}
 }
 /* pc >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px){
-    body{
-        background-color: #ff0000;
-    }
+    
   
      /* Layout */
      .Container{
@@ -165,4 +212,6 @@ nav ul li a {
         nav ul li a:hover{
              color: #c00000;
         } 
+
+        
 }
